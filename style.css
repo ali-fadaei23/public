@@ -1,0 +1,3247 @@
+/*######################################## Fonts ########################################*/
+@font-face {
+  font-family: KalamehWeb;
+  src: url(Assets/fonts/Kalameh\ Bold.ttf);
+}
+
+@font-face {
+  font-family: Graphik Arabic;
+  src: url(Assets/fonts/Graphik\ Arabic\ Bold.otf);
+}
+
+@font-face {
+  font-family: IRANSansXFaNum;
+  src: url(Assets/fonts/IRANSansXFaNum-Bold.ttf);
+}
+
+@font-face {
+  font-family: IRANSansXFaNum B;
+  src: url(Assets/fonts/IRANSansXFaNum-Black.ttf);
+}
+
+@font-face {
+  font-family: IRANSansXFaNum DB;
+  src: url(Assets/fonts/IRANSansXFaNum-DemiBold.ttf);
+}
+
+@font-face {
+  font-family: IRANSansXFaNum L;
+  src: url(Assets/fonts/IRANSansXFaNum-Light.ttf);
+}
+@font-face {
+  font-family: IRANSansXFaNum M;
+  src: url(Assets/fonts/IRANSansXFaNum-Medium.ttf);
+}
+@font-face {
+  font-family: IRANSansXFaNum R;
+  src: url(Assets/fonts/IRANSansXFaNum-Regular.ttf);
+}
+@font-face {
+  font-family: IRANSansXFaNum UL;
+  src: url(Assets/fonts/IRANSansXFaNum-UltraLight.ttf);
+}
+
+@font-face {
+  font-family: IRANSansXFaNum T;
+  src: url(Assets/fonts/IRANSansXFaNum-Thin.ttf);
+}
+/* ######################################## Default Style ########################################*/
+body {
+  font-family: IRANSansXFaNum;
+  margin: 0;
+}
+
+button {
+  font-family: IRANSansXFaNum M;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /*######################################## HEADER ######################################## */
+  .section {
+    display: block;
+  }
+
+  .container-layout {
+    padding: 0;
+  }
+
+  .container-text {
+    padding: 0;
+    margin-left: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    position: relative;
+    overflow: hidden;
+    height: 1164px;
+  }
+
+  .pos-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 265px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  ul {
+    font-family: IRANSansXFaNum M;
+    float: right;
+    text-align: right;
+    direction: rtl;
+    line-height: 2;
+    margin: 0;
+    padding-right: 43px;
+    font-size: 0.88rem;
+    position: relative;
+    bottom: -540px;
+  }
+
+  p {
+    color: #989898;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    bottom: -548px;
+    font-size: 0.93rem;
+  }
+
+  .p-header {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    bottom: -548px;
+    font-size: 0.93rem;
+  }
+
+  h1 {
+    font-family: Graphik Arabic;
+    font-size: 2.2rem;
+    margin-right: 0;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+  }
+
+  .text {
+    margin-top: 96px;
+  }
+
+  .shape-circle {
+    background-color: #64abe9;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    position: absolute;
+    top: 654px;
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+    opacity: 0.1;
+    margin-right: -278px;
+  }
+
+  .dot-1 {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 338px;
+    right: 0;
+    bottom: 0;
+    width: 218px;
+  }
+
+  .dot-2 {
+    position: absolute;
+    top: 506px;
+    left: -102px;
+    right: 0;
+    bottom: 0;
+    width: 386px;
+  }
+
+  .layout-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-border {
+    width: 450px;
+    height: 425px;
+    border: 1px solid #2086c8;
+    border-radius: 10px 190px 10px 10px;
+    position: absolute;
+    top: -53px;
+    right: -26px;
+    bottom: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .layout-color {
+    position: absolute;
+    top: -37px;
+    left: 0;
+    right: -38px;
+    bottom: 0;
+    width: 440px;
+    height: 426px;
+    background-color: #2086c8;
+    border-radius: 190px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .layout-img {
+    width: fit-content;
+  }
+
+  .img-cooperation {
+    border-radius: 10px 10px 190px 10px;
+    position: absolute;
+    top: -24px;
+    left: 51px;
+    right: 0;
+    bottom: 0;
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*######################################## INFO - 1 ########################################*/
+  h3 {
+    top: -474px;
+    font-size: 2.4rem;
+    position: relative;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .container-info {
+    background-color: #eeebeb;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .info-layout {
+    height: 480px;
+    margin-left: 0;
+  }
+
+  .info-text {
+    padding: 0;
+  }
+
+  .text-header {
+    margin-bottom: 30px;
+  }
+
+  .layout-info-2 {
+    position: absolute;
+  }
+
+  .layout-info-3 {
+    padding-right: 40px;
+    position: absolute;
+  }
+
+  .color-info {
+    width: 545px;
+    height: 422px;
+    background-color: #2086c8;
+    border-radius: 12px 12px 355px 12px;
+    position: absolute;
+    right: -281px;
+    bottom: 0;
+    top: 102px;
+  }
+
+  .shape-circle-border {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    bottom: 0;
+    top: 1634px;
+    right: 381px;
+    border: 1px solid #2086c8;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 0;
+  }
+
+  .img-info {
+    border-radius: 255px 12px 12px 12px;
+    width: 545px;
+    position: absolute;
+    top: 92px;
+    left: -275px;
+  }
+
+  .dot-info {
+    display: none;
+    position: absolute;
+    right: 92px;
+    bottom: 15px;
+    width: 180px;
+  }
+
+  .p-info {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 557px;
+    font-size: 0.93rem;
+  }
+
+  button {
+    padding: 17px 22px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d71b9;
+    color: #fff;
+  }
+  /*######################################## INFO - 2 ########################################*/
+  .header-2 {
+    font-size: 1.8rem;
+    position: relative;
+    top: -438px;
+  }
+
+  .container-info-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .info-2 {
+    overflow: hidden;
+    height: 615px;
+  }
+
+  .info-layout-2 {
+    height: 489px;
+    margin-left: 0;
+  }
+
+  .info-text-2 {
+    padding-right: 0;
+    padding-bottom: 25px;
+    margin-left: 0;
+  }
+
+  .text-header-2 {
+    margin-bottom: 0;
+  }
+
+  .layout-1-info-2 {
+    position: absolute;
+  }
+
+  .layout-3-info-2 {
+    padding-right: 0;
+    position: relative;
+  }
+
+  .color-info-2 {
+    width: 501px;
+    height: 385px;
+    background-color: #2086c8;
+    border-radius: 12px 250px 12px 12px;
+    position: absolute;
+    right: 19px;
+    left: 0;
+    bottom: 0;
+    top: 2110px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .shape-circle-border-2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    top: 213px;
+    right: 0;
+    left: 190px;
+    border: 1px solid #2086c8;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 0;
+  }
+
+  .img-info-2 {
+    border-radius: 12px 12px 200px 12px;
+    width: 500px;
+    position: relative;
+    top: 120px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dot-info-2 {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 2206px;
+    bottom: 0;
+    left: 0;
+    width: 520px;
+    margin-left: -148px;
+  }
+
+  .p-info-2 {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 556px;
+    font-size: 0.93rem;
+  }
+
+  button {
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d71b9;
+    color: #fff;
+  }
+  /*######################################## SLIDER ########################################*/
+  .container-slider {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 90px 60px 90px;
+  }
+
+  .owl-carousel {
+    background-color: #eeebeb;
+  }
+
+  .owl-theme .owl-nav .owl-prev:focus {
+    opacity: 0.4;
+  }
+
+  .owl-theme .owl-nav .owl-next:focus {
+    opacity: 0.4;
+  }
+
+  .owl-theme .owl-nav .owl-prev:hover {
+    opacity: 0.5;
+  }
+
+  .owl-theme .owl-nav .owl-next:hover {
+    opacity: 0.5;
+  }
+
+  .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 27%;
+    left: 0;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 55px;
+    margin-right: 0;
+    border: 4px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0.2;
+  }
+
+  .quote {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -25px;
+    z-index: 3;
+  }
+
+  .img-quote {
+    width: 70px;
+  }
+
+  .text-slider {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .p-text-slider {
+    font-family: IRANSansXFaNum L;
+    color: #989898;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: -20px;
+    font-size: 0.93rem;
+  }
+
+  .name-teacher {
+    color: #747474;
+    font-size: 1.125rem;
+    position: relative;
+    top: 0;
+    margin: 10px 0;
+    font-family: IRANSansXFaNum;
+  }
+
+  .pos-teacher {
+    font-family: IRANSansXFaNum L;
+    position: relative;
+    top: 0;
+    margin: 0;
+  }
+
+  .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 27%;
+    right: 0;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 55px;
+    border: 4px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0.2;
+  }
+
+  .owl-next span {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .owl-prev span {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .owl-next span::before {
+    content: url(Assets/images/next-1.png);
+    visibility: visible;
+    width: 50%;
+  }
+
+  .owl-prev span::before {
+    content: url(Assets/images/prev-1.png);
+    visibility: visible;
+    width: 50%;
+  }
+
+  .owl-carousel .owl-item .img-teacher {
+    display: block;
+    width: 278px;
+    height: 283px;
+    border-radius: 90px 20px 20px 20px;
+    object-fit: none;
+    object-position: center;
+  }
+  /*######################################## FAQ ########################################*/
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .header-faq {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .text-header-faq {
+    font-size: 2rem;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .line-faq {
+    font-size: 25px;
+    position: relative;
+    bottom: 0;
+    top: -20px;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .faq-question {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eeebeb;
+    border-radius: 8px 8px 8px 8px;
+    font-family: IRANSansXFaNum M;
+    font-size: 0.95rem;
+    color: #4c4c4c;
+  }
+
+  .faq-question::before {
+    content: url(Assets/images/collapse-arrow.png);
+    float: left;
+    opacity: 0.5;
+  }
+
+  .open .faq-question::before {
+    content: url(Assets/images/expand-arrow.png);
+  }
+
+  .faq-answer-container {
+    width: 100%;
+    padding: 0;
+    margin-top: 2px;
+    height: 0;
+    border: 0;
+    opacity: 0;
+    overflow: hidden;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .p-text-faq {
+    font-family: IRANSansXFaNum L;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+    margin: 0;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /*######################################## HEADER ########################################*/
+  .section {
+    display: block;
+  }
+
+  .container-layout {
+    padding: 0;
+  }
+
+  .container-text {
+    padding: 0;
+    margin-left: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    position: relative;
+    overflow: hidden;
+    height: 1164px;
+  }
+
+  .pos-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 265px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  ul {
+    font-family: IRANSansXFaNum M;
+    float: right;
+    text-align: right;
+    direction: rtl;
+    line-height: 2;
+    margin: 0;
+    padding-right: 43px;
+    font-size: 0.88rem;
+    position: relative;
+    bottom: -540px;
+  }
+
+  p {
+    color: #989898;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    bottom: -548px;
+    font-size: 0.93rem;
+  }
+
+  .p-header {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    bottom: -548px;
+    font-size: 0.93rem;
+  }
+
+  h1 {
+    font-family: Graphik Arabic;
+    font-size: 2.2rem;
+    margin-right: 0;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+  }
+
+  .text {
+    margin-top: 96px;
+  }
+
+  .shape-circle {
+    background-color: #64abe9;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    position: absolute;
+    top: 654px;
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+    opacity: 0.1;
+    margin-right: -278px;
+  }
+
+  .dot-1 {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 338px;
+    right: 0;
+    bottom: 0;
+    width: 218px;
+  }
+
+  .dot-2 {
+    position: absolute;
+    top: 506px;
+    left: -102px;
+    right: 0;
+    bottom: 0;
+    width: 386px;
+  }
+
+  .layout-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-border {
+    width: 495px;
+    height: 467px;
+    border: 1px solid #2086c8;
+    border-radius: 10px 300px 10px 10px;
+    position: absolute;
+    top: -53px;
+    right: 45px;
+    bottom: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .layout-color {
+    position: absolute;
+    top: -37px;
+    left: 0;
+    right: 18px;
+    bottom: 0;
+    width: 496px;
+    height: 473px;
+    background-color: #2086c8;
+    border-radius: 300px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .layout-img {
+    width: fit-content;
+  }
+
+  .img-cooperation {
+    border-radius: 10px 10px 300px 10px;
+    position: absolute;
+    top: -21px;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+    width: 494px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*######################################## INFO - 1 ########################################*/
+  h3 {
+    top: -474px;
+    font-size: 2.4rem;
+    position: relative;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .container-info {
+    background-color: #eeebeb;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .info-layout {
+    height: 480px;
+    margin-left: 0;
+  }
+
+  .info-text {
+    padding: 0;
+  }
+
+  .text-header {
+    margin-bottom: 30px;
+  }
+
+  .layout-info-2 {
+    position: absolute;
+  }
+
+  .layout-info-3 {
+    padding-right: 40px;
+    position: absolute;
+  }
+
+  .color-info {
+    width: 545px;
+    height: 422px;
+    background-color: #2086c8;
+    border-radius: 12px 12px 355px 12px;
+    position: absolute;
+    right: -281px;
+    bottom: 0;
+    top: 102px;
+  }
+
+  .shape-circle-border {
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    bottom: 0;
+    top: 1634px;
+    right: 381px;
+    border: 1px solid #2086c8;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 0;
+  }
+
+  .img-info {
+    border-radius: 255px 12px 12px 12px;
+    width: 545px;
+    position: absolute;
+    top: 92px;
+    left: -275px;
+  }
+
+  .dot-info {
+    display: none;
+    position: absolute;
+    right: 92px;
+    bottom: 15px;
+    width: 180px;
+  }
+
+  .p-info {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 557px;
+    font-size: 0.93rem;
+  }
+
+  button {
+    padding: 17px 22px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d71b9;
+    color: #fff;
+  }
+  /*######################################## INFO - 2 ########################################*/
+  .header-2 {
+    font-size: 1.8rem;
+    position: relative;
+    top: -438px;
+  }
+
+  .container-info-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .info-2 {
+    overflow: hidden;
+    height: 615px;
+  }
+
+  .info-layout-2 {
+    height: 489px;
+    margin-left: 0;
+  }
+
+  .info-text-2 {
+    padding-right: 0;
+    padding-bottom: 25px;
+    margin-left: 0;
+  }
+
+  .text-header-2 {
+    margin-bottom: 0;
+  }
+
+  .layout-1-info-2 {
+    position: absolute;
+  }
+
+  .layout-3-info-2 {
+    padding-right: 0;
+    position: relative;
+  }
+
+  .color-info-2 {
+    width: 501px;
+    height: 385px;
+    background-color: #2086c8;
+    border-radius: 12px 250px 12px 12px;
+    position: absolute;
+    right: 19px;
+    left: 0;
+    bottom: 0;
+    top: 2110px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .shape-circle-border-2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    top: 213px;
+    right: 0;
+    left: 190px;
+    border: 1px solid #2086c8;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 0;
+  }
+
+  .img-info-2 {
+    border-radius: 12px 12px 200px 12px;
+    width: 500px;
+    position: relative;
+    top: 120px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dot-info-2 {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 2206px;
+    bottom: 0;
+    left: 0;
+    width: 520px;
+    margin-left: -148px;
+  }
+
+  .p-info-2 {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 556px;
+    font-size: 0.93rem;
+  }
+
+  button {
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d71b9;
+    color: #fff;
+  }
+  /*######################################## SLIDER ########################################*/
+  .container-slider {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 90px 60px 90px;
+  }
+
+  .owl-carousel {
+    background-color: #eeebeb;
+  }
+
+  .owl-theme .owl-nav .owl-prev:focus {
+    opacity: 0.4;
+  }
+
+  .owl-theme .owl-nav .owl-next:focus {
+    opacity: 0.4;
+  }
+
+  .owl-theme .owl-nav .owl-prev:hover {
+    opacity: 0.5;
+  }
+
+  .owl-theme .owl-nav .owl-next:hover {
+    opacity: 0.5;
+  }
+
+  .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 27%;
+    left: 0;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 55px;
+    margin-right: 0;
+    border: 4px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0.2;
+  }
+
+  .quote {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -25px;
+    z-index: 3;
+  }
+
+  .img-quote {
+    width: 70px;
+  }
+
+  .text-slider {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .p-text-slider {
+    font-family: IRANSansXFaNum L;
+    color: #989898;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: -20px;
+    font-size: 0.93rem;
+  }
+
+  .name-teacher {
+    color: #747474;
+    font-size: 1.125rem;
+    position: relative;
+    top: 0;
+    margin: 10px 0;
+    font-family: IRANSansXFaNum;
+  }
+
+  .pos-teacher {
+    font-family: IRANSansXFaNum L;
+    position: relative;
+    top: 0;
+    margin: 0;
+  }
+
+  .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 27%;
+    right: 0;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 55px;
+    border: 4px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0.2;
+  }
+
+  .owl-next span {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .owl-prev span {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .owl-next span::before {
+    content: url(Assets/images/next-1.png);
+    visibility: visible;
+    width: 100%;
+  }
+
+  .owl-prev span::before {
+    content: url(Assets/images/prev-1.png);
+    visibility: visible;
+    width: 100%;
+  }
+
+  .owl-carousel .owl-item .img-teacher {
+    display: block;
+    width: 278px;
+    height: 283px;
+    border-radius: 90px 20px 20px 20px;
+    object-fit: none;
+    object-position: center;
+  }
+  /*######################################## FAQ ########################################*/
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .header-faq {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .text-header-faq {
+    font-size: 2rem;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .line-faq {
+    font-size: 25px;
+    position: relative;
+    bottom: 0;
+    top: -20px;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .faq-question {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eeebeb;
+    border-radius: 8px 8px 8px 8px;
+    font-family: IRANSansXFaNum M;
+    font-size: 0.95rem;
+    color: #4c4c4c;
+  }
+
+  .faq-question::before {
+    content: url(Assets/images/collapse-arrow.png);
+    float: left;
+    opacity: 0.5;
+  }
+
+  .open .faq-question::before {
+    content: url(Assets/images/expand-arrow.png);
+  }
+
+  .faq-answer-container {
+    width: 100%;
+    padding: 0;
+    margin-top: 2px;
+    height: 0;
+    border: 0;
+    opacity: 0;
+    overflow: hidden;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .p-text-faq {
+    font-family: IRANSansXFaNum L;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+    margin: 0;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /*######################################## HEADER ########################################*/
+  .section {
+    display: inline-flex;
+  }
+
+  .container-layout {
+    padding: 30px 0 0 40px;
+  }
+
+  .container-text {
+    padding: 0;
+    margin-left: 40px;
+    font-size: 15px;
+    line-height: 1.6;
+    position: relative;
+    overflow: hidden;
+    height: 371px;
+  }
+
+  .pos-layout {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  ul {
+    font-family: IRANSansXFaNum M;
+    float: right;
+    text-align: right;
+    direction: rtl;
+    line-height: 2;
+    margin: 0;
+    padding-right: 60px;
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 27px;
+  }
+
+  p {
+    color: #989898;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+  }
+
+  .p-header {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    font-size: 0.9rem;
+    margin-left: 310px;
+    margin-right: 19px;
+    position: relative;
+    bottom: 23px;
+  }
+
+  h1 {
+    font-family: Graphik Arabic;
+    font-size: 1.5rem;
+    text-align: end;
+    margin-right: 38px;
+    position: relative;
+    bottom: 25px;
+  }
+
+  .text {
+    margin-top: 96px;
+  }
+
+  .shape-circle {
+    background-color: #64abe9;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+    opacity: 0.1;
+    margin-right: -18px;
+  }
+
+  .dot-1 {
+    display: block;
+    position: absolute;
+    top: 85px;
+    left: 268px;
+    right: 0;
+    bottom: 0;
+    width: 142px;
+  }
+
+  .dot-2 {
+    position: absolute;
+    top: 238px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 142px;
+  }
+
+  .layout-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-border {
+    width: 255px;
+    height: 274px;
+    border: 1px solid #2086c8;
+    border-radius: 7px 160px 7px 7px;
+    position: relative;
+    top: 23px;
+    right: 0;
+    bottom: 0;
+    left: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .layout-color {
+    position: absolute;
+    top: 35px;
+    left: 52px;
+    right: 0;
+    bottom: 0;
+    width: 283px;
+    height: 275px;
+    background-color: #2086c8;
+    border-radius: 160px 7px 7px 7px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .layout-img {
+    width: fit-content;
+  }
+
+  .img-cooperation {
+    border-radius: 7px 7px 160px 7px;
+    position: absolute;
+    top: 47px;
+    left: 62px;
+    right: 0;
+    bottom: 0;
+    width: 285px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /*######################################## INFO - 1 ########################################*/
+  h3 {
+    font-size: 1.6rem;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .container-info {
+    background-color: #eeebeb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 0;
+  }
+
+  .info-layout {
+    height: 455px;
+    margin-left: 0;
+  }
+
+  .info-text {
+    padding-right: 10px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+  }
+
+  .text-header {
+    margin-bottom: 0;
+  }
+
+  .layout-info-2 {
+    position: absolute;
+  }
+
+  .layout-info-3 {
+    padding-right: 110px;
+    position: relative;
+  }
+
+  .color-info {
+    width: 270px;
+    height: 208px;
+    background-color: #2086c8;
+    border-radius: 5px 5px 100px 5px;
+    position: absolute;
+    right: -317px;
+    bottom: 0;
+    top: -206px;
+  }
+
+  .shape-circle-border {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    bottom: 0;
+    top: 510px;
+    right: 240px;
+    border: 1px solid #2086c8;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 0;
+  }
+
+  .img-info {
+    border-radius: 100px 5px 5px 5px;
+    width: 270px;
+    position: relative;
+    top: -213px;
+    left: 40px;
+  }
+
+  .dot-info {
+    display: block;
+    position: relative;
+    right: -279px;
+    top: 170px;
+    width: 260px;
+    transform: rotate(5deg);
+  }
+
+  .p-info {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+  }
+
+  button {
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d71b9;
+    color: #fff;
+  }
+  /*######################################## INFO - 2 ########################################*/
+  .header-2 {
+    font-size: 1.62rem;
+    position: relative;
+    top: -10px;
+  }
+
+  .container-info-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 0;
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+
+  .info-2 {
+    overflow: hidden;
+    height: 540px;
+  }
+
+  .info-layout-2 {
+    height: 550px;
+    margin-left: 0;
+  }
+
+  .info-text-2 {
+    padding-right: 5px;
+    padding-bottom: 0;
+    margin-left: 20px;
+  }
+
+  .text-header-2 {
+    margin-bottom: 0;
+  }
+
+  .layout-1-info-2 {
+    position: absolute;
+  }
+
+  .layout-3-info-2 {
+    padding-right: 20px;
+    position: relative;
+  }
+
+  .color-info-2 {
+    width: 302px;
+    height: 234px;
+    background-color: #2086c8;
+    border-radius: 10px 120px 10px 10px;
+    position: absolute;
+    right: 0;
+    left: 42px;
+    bottom: 0;
+    top: 966px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .shape-circle-border-2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    top: 213px;
+    right: 0;
+    left: 190px;
+    border: 1px solid #2086c8;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 0;
+  }
+
+  .img-info-2 {
+    border-radius: 10px 10px 120px 10px;
+    width: 302px;
+    position: relative;
+    top: 87px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .dot-info-2 {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 871px;
+    bottom: 0;
+    left: 0;
+    width: 225px;
+    margin-left: -36px;
+  }
+
+  .p-info-2 {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 5px;
+    font-size: 0.93rem;
+  }
+
+  button {
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d71b9;
+    color: #fff;
+  }
+  /*######################################## SLIDER ########################################*/
+  .container-slider {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 90px 60px 90px;
+  }
+
+  .owl-carousel {
+    background-color: #eeebeb;
+  }
+
+  .owl-theme .owl-nav .owl-prev:focus {
+    opacity: 0.4;
+  }
+
+  .owl-theme .owl-nav .owl-next:focus {
+    opacity: 0.4;
+  }
+
+  .owl-theme .owl-nav .owl-prev:hover {
+    opacity: 0.5;
+  }
+
+  .owl-theme .owl-nav .owl-next:hover {
+    opacity: 0.5;
+  }
+
+  .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 55px;
+    margin-right: 0;
+    border: 4px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0.2;
+  }
+
+  .quote {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -25px;
+    z-index: 3;
+  }
+
+  .img-quote {
+    width: 70px;
+  }
+
+  .text-slider {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .p-text-slider {
+    font-family: IRANSansXFaNum L;
+    color: #989898;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: -20px;
+    font-size: 0.93rem;
+  }
+
+  .name-teacher {
+    color: #747474;
+    font-size: 1.125rem;
+    position: relative;
+    top: 0;
+    margin: 10px 0;
+    font-family: IRANSansXFaNum;
+  }
+
+  .pos-teacher {
+    font-family: IRANSansXFaNum L;
+    position: relative;
+    top: 0;
+    margin: 0;
+  }
+
+  .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 55px;
+    border: 4px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0.2;
+  }
+
+  .owl-next span {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .owl-prev span {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .owl-next span::before {
+    content: url(Assets/images/next-1.png);
+    visibility: visible;
+    width: 50%;
+  }
+
+  .owl-prev span::before {
+    content: url(Assets/images/prev-1.png);
+    visibility: visible;
+    width: 50%;
+  }
+
+  .owl-carousel .owl-item .img-teacher {
+    display: block;
+    width: 278px;
+    height: 283px;
+    border-radius: 90px 20px 20px 20px;
+    object-fit: none;
+    object-position: center;
+  }
+  /*######################################## FAQ ########################################*/
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .header-faq {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .text-header-faq {
+    font-size: 2rem;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .line-faq {
+    font-size: 25px;
+    position: relative;
+    bottom: 0;
+    top: -20px;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .faq-question {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eeebeb;
+    border-radius: 8px 8px 8px 8px;
+    font-family: IRANSansXFaNum M;
+    font-size: 0.95rem;
+    color: #4c4c4c;
+  }
+
+  .faq-question::before {
+    content: url(Assets/images/collapse-arrow.png);
+    float: left;
+    opacity: 0.5;
+  }
+
+  .open .faq-question::before {
+    content: url(Assets/images/expand-arrow.png);
+  }
+
+  .faq-answer-container {
+    width: 100%;
+    padding: 0;
+    margin-top: 2px;
+    height: 0;
+    border: 0;
+    opacity: 0;
+    overflow: hidden;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .p-text-faq {
+    font-family: IRANSansXFaNum L;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+    margin: 0;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /*######################################## HEADER ########################################*/
+  .section {
+    display: inline-flex;
+  }
+
+  .container-layout {
+    padding: 20px 0 0 50px;
+  }
+
+  .container-text {
+    padding: 0 42px;
+    margin-left: 96px;
+    font-size: 15px;
+    line-height: 1.6;
+    position: relative;
+    overflow: hidden;
+    height: 475px;
+  }
+
+  .pos-layout {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  ul {
+    font-family: IRANSansXFaNum M;
+    float: right;
+    text-align: right;
+    direction: rtl;
+    line-height: 2;
+    margin: 0;
+    padding-right: 20px;
+    font-size: 0.91rem;
+    position: relative;
+    bottom: 0;
+  }
+
+  .p-header {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 330px;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+  }
+
+  p {
+    color: #989898;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+  }
+
+  h1 {
+    font-family: Graphik Arabic;
+    font-size: 2rem;
+    text-align: end;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+  }
+
+  .text {
+    margin-top: 96px;
+  }
+
+  .shape-circle {
+    background-color: #64abe9;
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+    opacity: 0.1;
+    margin-right: -34px;
+  }
+
+  .dot-1 {
+    display: block;
+    position: absolute;
+    top: 90px;
+    left: 374px;
+    right: 0;
+    bottom: 0;
+    width: 165px;
+  }
+
+  .dot-2 {
+    position: absolute;
+    top: 308px;
+    left: -1px;
+    right: 0;
+    bottom: 0;
+    width: 177px;
+  }
+
+  .layout-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-border {
+    width: 356px;
+    height: 371px;
+    border: 1px solid #2086c8;
+    border-radius: 10px 160px 10px 10px;
+    position: relative;
+    top: 37px;
+    right: 0;
+    bottom: 0;
+    left: 50px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .layout-color {
+    position: absolute;
+    top: 51px;
+    left: 65px;
+    right: 0;
+    bottom: 0;
+    width: 382px;
+    height: 375px;
+    background-color: #2086c8;
+    border-radius: 180px 10px 10px 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .layout-img {
+    width: fit-content;
+  }
+
+  .img-cooperation {
+    border-radius: 10px 10px 160px 10px;
+    position: absolute;
+    top: 65px;
+    left: 79px;
+    right: 0;
+    bottom: 0;
+    width: 385px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /*######################################## INFO - 1 ########################################*/
+  h3 {
+    font-size: 1.6rem;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .container-info {
+    background-color: #eeebeb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: end;
+    padding-top: 55px;
+    padding-bottom: 0;
+  }
+
+  .info-layout {
+    height: 400px;
+    margin-left: 0;
+  }
+
+  .info-text {
+    padding-right: 10px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+  }
+
+  .text-header {
+    margin-bottom: 0;
+  }
+
+  .layout-info-2 {
+    position: absolute;
+  }
+
+  .layout-info-3 {
+    padding-right: 110px;
+    position: relative;
+  }
+
+  .color-info {
+    width: 400px;
+    height: 309px;
+    background-color: #2086c8;
+    border-radius: 8px 8px 150px 8px;
+    position: absolute;
+    right: -449px;
+    bottom: 0;
+    top: -233px;
+  }
+
+  .shape-circle-border {
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    bottom: 0;
+    top: 528px;
+    right: 370px;
+    border: 1px solid #2086c8;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 0;
+  }
+
+  .img-info {
+    border-radius: 150px 8px 8px 8px;
+    width: 400px;
+    position: relative;
+    top: -240px;
+    left: 40px;
+  }
+
+  .dot-info {
+    display: block;
+    position: relative;
+    right: -309px;
+    top: 237px;
+    width: 260px;
+    transform: rotate(5deg);
+  }
+
+  .p-info {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 10px;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+  }
+
+  button {
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d71b9;
+    color: #fff;
+  }
+  /*######################################## INFO - 2 ########################################*/
+  .header-2 {
+    font-size: 1.62rem;
+    position: relative;
+    top: -10px;
+  }
+
+  .container-info-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 0;
+    padding-left: 65px;
+    padding-right: 40px;
+  }
+
+  .info-2 {
+    overflow: hidden;
+    height: 540px;
+  }
+
+  .info-layout-2 {
+    height: 440px;
+    margin-left: 0;
+  }
+
+  .info-text-2 {
+    padding-right: 5px;
+    padding-bottom: 0;
+    margin-left: 20px;
+  }
+
+  .text-header-2 {
+    margin-bottom: 0;
+  }
+
+  .layout-1-info-2 {
+    position: absolute;
+  }
+
+  .layout-3-info-2 {
+    padding-right: 35px;
+    position: relative;
+  }
+
+  .color-info-2 {
+    width: 450px;
+    height: 344px;
+    background-color: #2086c8;
+    border-radius: 12px 160px 12px 12px;
+    position: absolute;
+    right: 0;
+    left: 57px;
+    bottom: 0;
+    top: 990px;
+  }
+
+  .shape-circle-border-2 {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+    top: 246px;
+    right: 0;
+    left: 386px;
+    border: 1px solid #2086c8;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 0;
+  }
+
+  .img-info-2 {
+    border-radius: 12px 12px 160px 12px;
+    width: 450px;
+    position: relative;
+    top: 61px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .dot-info-2 {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 919px;
+    bottom: 0;
+    left: 0;
+    width: 267px;
+    margin-left: -48px;
+  }
+
+  .p-info-2 {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 5px;
+    font-size: 0.93rem;
+  }
+
+  button {
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d71b9;
+    color: #fff;
+  }
+  /*######################################## SLIDER ########################################*/
+  .container-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    padding: 70px 120px 70px 120px;
+  }
+
+  .owl-carousel {
+    background-color: #eeebeb;
+  }
+
+  .owl-theme .owl-nav .owl-prev:focus {
+    opacity: 0.4;
+  }
+
+  .owl-theme .owl-nav .owl-next:focus {
+    opacity: 0.4;
+  }
+
+  .owl-theme .owl-nav .owl-prev:hover {
+    opacity: 0.5;
+  }
+
+  .owl-theme .owl-nav .owl-next:hover {
+    opacity: 0.5;
+  }
+
+  .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 0;
+    border: 4px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0.2;
+  }
+
+  .quote {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -25px;
+    z-index: 3;
+  }
+
+  .img-quote {
+    width: 70px;
+  }
+
+  .text-slider {
+    margin: 0 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .p-text-slider {
+    font-family: IRANSansXFaNum L;
+    color: #989898;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+  }
+
+  .name-teacher {
+    color: #747474;
+    font-size: 1.125rem;
+    position: relative;
+    top: 0;
+    margin: 10px 0;
+    font-family: IRANSansXFaNum;
+  }
+
+  .pos-teacher {
+    font-family: IRANSansXFaNum L;
+    position: relative;
+    top: 0;
+    margin: 0;
+  }
+
+  .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 40px;
+    border: 4px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0.2;
+  }
+
+  .owl-next span {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .owl-prev span {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .owl-next span::before {
+    content: url(Assets/images/next-1.png);
+    visibility: visible;
+    width: 50%;
+  }
+
+  .owl-prev span::before {
+    content: url(Assets/images/prev-1.png);
+    visibility: visible;
+    width: 50%;
+  }
+
+  .owl-carousel .owl-item .img-teacher {
+    display: block;
+    width: 260px;
+    height: 280px;
+    border-radius: 87px 12px 12px 12px;
+    object-fit: none;
+    object-position: center;
+  }
+  /*######################################## FAQ ########################################*/
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .header-faq {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .text-header-faq {
+    font-size: 2rem;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .line-faq {
+    font-size: 25px;
+    position: relative;
+    bottom: 0;
+    top: -20px;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .faq-question {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eeebeb;
+    border-radius: 8px 8px 8px 8px;
+    font-family: IRANSansXFaNum M;
+    font-size: 0.95rem;
+    color: #4c4c4c;
+  }
+
+  .faq-question::before {
+    content: url(Assets/images/collapse-arrow.png);
+    float: left;
+    opacity: 0.5;
+  }
+
+  .open .faq-question::before {
+    content: url(Assets/images/expand-arrow.png);
+  }
+
+  .faq-answer-container {
+    width: 100%;
+    padding: 0;
+    margin-top: 2px;
+    height: 0;
+    border: 0;
+    opacity: 0;
+    overflow: hidden;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .p-text-faq {
+    font-family: IRANSansXFaNum L;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+    margin: 0;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /*######################################## HEADER ########################################*/
+  .section {
+    display: inline-flex;
+  }
+
+  .container-layout {
+    padding: 20px 0 0 50px;
+  }
+
+  .container-text {
+    padding: 40px 50px;
+    margin-left: 92px;
+    font-size: 15px;
+    line-height: 1.6;
+    position: relative;
+    overflow: hidden;
+    height: 564px;
+  }
+
+  .pos-layout {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  ul {
+    font-family: IRANSansXFaNum M;
+    float: right;
+    text-align: right;
+    direction: rtl;
+    line-height: 2;
+    margin: 0;
+    padding-right: 20px;
+    font-size: 0.88rem;
+    position: relative;
+    bottom: 0;
+  }
+
+  p {
+    color: #989898;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+  }
+
+  .p-header {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 530px;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+  }
+
+  h1 {
+    font-family: Graphik Arabic;
+    font-size: 2.2rem;
+    text-align: end;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+  }
+
+  .text {
+    margin-top: 96px;
+  }
+
+  .shape-circle {
+    background-color: #64abe9;
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+    opacity: 0.1;
+    margin-right: -45px;
+  }
+  .dot-1 {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 548px;
+    right: 0;
+    bottom: 0;
+    width: 218px;
+  }
+
+  .dot-2 {
+    position: absolute;
+    top: 433px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 218px;
+  }
+
+  .layout-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .layout-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .layout-border {
+    width: 558px;
+    height: 539px;
+    border: 1px solid #2086c8;
+    border-radius: 12px 250px 12px 12px;
+    position: relative;
+    top: 27px;
+    right: 0;
+    bottom: 0;
+    left: 57px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .layout-color {
+    position: absolute;
+    top: 44px;
+    left: 74px;
+    right: 0;
+    bottom: 0;
+    width: 560px;
+    height: 539px;
+    background-color: #2086c8;
+    border-radius: 250px 12px 12px 12px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .layout-img {
+    width: fit-content;
+  }
+
+  .img-cooperation {
+    border-radius: 12px 12px 250px 12px;
+    position: absolute;
+    top: 62px;
+    left: 91px;
+    right: 0;
+    bottom: 0;
+    width: 558px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /*######################################## INFO - 1 ########################################*/
+  h3 {
+    font-size: 1.7rem;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .container-info {
+    background-color: #eeebeb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: end;
+    padding-top: 55px;
+    padding-bottom: 0;
+  }
+
+  .info-layout {
+    height: 400px;
+    margin-left: 0;
+  }
+
+  .info-text {
+    padding-right: 5px;
+    padding-bottom: 0;
+    margin-left: 20px;
+  }
+
+  .text-header {
+    margin-bottom: 0;
+  }
+
+  .layout-info-3 {
+    padding-right: 110px;
+    position: relative;
+  }
+
+  .color-info {
+    width: 450px;
+    height: 344px;
+    background-color: #2086c8;
+    border-radius: 10px 10px 180px 10px;
+    position: absolute;
+    right: -499px;
+    bottom: 0;
+    top: -276px;
+  }
+
+  .shape-circle-border {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    bottom: 0;
+    top: 700px;
+    right: 385px;
+    border: 1px solid #2086c8;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 0;
+  }
+
+  .img-info {
+    border-radius: 180px 10px 10px 10px;
+    width: 450px;
+    position: relative;
+    top: -289px;
+    left: 40px;
+  }
+
+  .dot-info {
+    display: block;
+    position: relative;
+    right: -337px;
+    top: 247px;
+    width: 290px;
+    transform: rotate(5deg);
+  }
+
+  .p-info {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+  }
+
+  button {
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d71b9;
+    color: #fff;
+  }
+  /*######################################## INFO - 2 ########################################*/
+  .header-2 {
+    font-size: 1.62rem;
+    position: relative;
+    top: -10px;
+  }
+
+  .container-info-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: end;
+    padding-bottom: 30px;
+    padding-top: 0;
+    padding-left: 65px;
+    padding-right: 40px;
+  }
+
+  .info-2 {
+    overflow: hidden;
+    height: 540px;
+  }
+
+  .info-layout-2 {
+    height: 440px;
+    margin-left: 0;
+  }
+
+  .info-text-2 {
+    padding-right: 5px;
+    padding-bottom: 0;
+    margin-left: 20px;
+  }
+
+  .text-header-2 {
+    margin-bottom: 0;
+  }
+
+  .layout-1-info-2 {
+    position: absolute;
+  }
+
+  .layout-3-info-2 {
+    padding-right: 35px;
+    position: relative;
+  }
+
+  .color-info-2 {
+    width: 450px;
+    height: 344px;
+    background-color: #2086c8;
+    border-radius: 12px 160px 12px 12px;
+    position: absolute;
+    right: 0;
+    left: 57px;
+    bottom: 0;
+    top: 1160px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .shape-circle-border-2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    top: 245px;
+    right: 0;
+    left: 394px;
+    border: 1px solid #2086c8;
+    border-radius: 50%;
+    opacity: 0.2;
+    z-index: 0;
+  }
+
+  .img-info-2 {
+    border-radius: 12px 12px 160px 12px;
+    width: 450px;
+    position: relative;
+    top: 61px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .dot-info-2 {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 1084px;
+    bottom: 0;
+    left: 0;
+    width: 267px;
+    margin-left: -36px;
+  }
+
+  .p-info-2 {
+    font-family: IRANSansXFaNum M;
+    color: #747474;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 5px;
+    font-size: 0.93rem;
+  }
+
+  button {
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1d71b9;
+    color: #fff;
+  }
+  /*######################################## SLIDER ########################################*/
+  .container-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    padding: 70px 120px 70px 120px;
+  }
+
+  .owl-carousel {
+    background-color: #eeebeb;
+  }
+
+  .owl-theme .owl-nav .owl-prev:focus {
+    opacity: 0.4;
+  }
+
+  .owl-theme .owl-nav .owl-next:focus {
+    opacity: 0.4;
+  }
+
+  .owl-theme .owl-nav .owl-prev:hover {
+    opacity: 0.5;
+  }
+
+  .owl-theme .owl-nav .owl-next:hover {
+    opacity: 0.5;
+  }
+
+  .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 0;
+    border: 4px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0.2;
+  }
+
+  .quote {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -25px;
+    z-index: 3;
+  }
+
+  .img-quote {
+    width: 70px;
+  }
+
+  .text-slider {
+    margin: 0 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .p-text-slider {
+    font-family: IRANSansXFaNum L;
+    color: #989898;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+  }
+
+  .name-teacher {
+    color: #747474;
+    font-size: 1.125rem;
+    position: relative;
+    top: 0;
+    margin: 10px 0;
+    font-family: IRANSansXFaNum;
+  }
+
+  .pos-teacher {
+    font-family: IRANSansXFaNum L;
+    position: relative;
+    top: 0;
+    margin: 0;
+  }
+
+  .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 40px;
+    border: 4px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    opacity: 0.2;
+  }
+
+  .owl-next span {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .owl-prev span {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .owl-next span::before {
+    content: url(Assets/images/next-1.png);
+    visibility: visible;
+    width: 50%;
+  }
+
+  .owl-prev span::before {
+    content: url(Assets/images/prev-1.png);
+    visibility: visible;
+    width: 50%;
+  }
+
+  .owl-carousel .owl-item .img-teacher {
+    display: block;
+    width: 273px;
+    height: 286px;
+    border-radius: 90px 15px 15px 15px;
+    object-fit: none;
+    object-position: center;
+  }
+  /*######################################## FAQ ########################################*/
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .header-faq {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .text-header-faq {
+    font-size: 2rem;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .line-faq {
+    font-size: 25px;
+    position: relative;
+    bottom: 0;
+    top: -20px;
+  }
+
+  .faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .faq-question {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #eeebeb;
+    border-radius: 8px 8px 8px 8px;
+    font-family: IRANSansXFaNum M;
+    font-size: 0.95rem;
+    color: #4c4c4c;
+  }
+
+  .faq-question::before {
+    content: url(Assets/images/collapse-arrow.png);
+    float: left;
+    opacity: 0.5;
+  }
+
+  .open .faq-question::before {
+    content: url(Assets/images/expand-arrow.png);
+  }
+
+  .faq-answer-container {
+    width: 100%;
+    padding: 0;
+    margin-top: 2px;
+    height: 0;
+    border: 0;
+    opacity: 0;
+    overflow: hidden;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .p-text-faq {
+    font-family: IRANSansXFaNum L;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    bottom: 0;
+    font-size: 0.93rem;
+    margin: 0;
+  }
+}
