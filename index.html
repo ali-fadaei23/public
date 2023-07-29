@@ -295,26 +295,69 @@
                     <h3 class="text-header-form">ثبت درخواست همکاری</h3>
                     <br /><span class="line-form">|</span>
                 </div>
-                <div class="card-form">
-                    <div class="header-personal-info">
-                        <h4 class="text-personal-info">مشخصات فردی</h4>
-                    </div>
-                    <div class="personal-info">
-                        <form>
-                            <div class="row">
-                                <div>
-                                    <label></label>
-                                    <input type="text" id="first-name" name="firstname">
-                                </div>
+                <div class="card-form-main">
+                    <form>
+                        <div class="card-personal-info">
+                            <div class="header-personal-info">
+                                <h4 class="text-personal-info">مشخصات فردی</h4>
                             </div>
-                            <div class="row">
-                                <div>
-                                    <label></label>
-                                    <input type="text" id="last-name" name="lastname">
+                            <div class="personal-info">
+                                <div class="row">
+                                    <div class="input-info">
+                                        <label>نام</label>
+                                        <input type="text" id="first-name" name="firstname">
+                                    </div>
+                                    <div class="input-info">
+                                        <label>نام خانوادگی</label>
+                                        <input type="text" id="last-name" name="lastname">
+                                    </div>
                                 </div>
+                                <div class="row">
+                                    <div class="input-info">
+                                        <label>مقطع تحصیلی</label>
+                                        <input type="text" id="education" name="education">
+                                    </div>
+                                    <div class="input-info">
+                                        <label>رشته تحصیلی</label>
+                                        <input type="text" id="field-of-study" name="fieldofstudy">
+                                    </div>
+                                </div>
+
+
+
+                                <!-- ################################ -->
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="card-birth-day">
+                            <div class="header-birth-day">
+                                <h4 class="text-birth-day">مشخصات فردی</h4>
+                            </div>
+                            <div class="birth-day">
+                                <div class="row">
+
+                                    <div class="birth-day-choice">
+                                        <label>روز</label>
+                                        <select id="day" class="choice choice-day">
+                                           
+                                        </select>
+                                    </div>
+                                    <div class="birth-day-choice">
+                                        <label>ماه</label>
+                                        <select id="month" class="choice choice-month"></select>
+                                    </div>
+                                    <div class="birth-day-choice">
+                                        <label>سال</label>
+                                        <select id="year" class="choice choice-year"></select>
+                                    </div>
+                                </div>
+
+
+
+
+                                <!-- ################################ -->
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
 
@@ -332,6 +375,9 @@
 
     <!-- script -->
     <script src="Assets/dist/Jquery/jquery-1.11.3.min.js"></script>
+    <script src="Assets/dist/moment.js"></script>
+    <script src="https://unpkg.com/jalali-moment/dist/jalali-moment.browser.js"></script>
+    <script src="Assets/dist/birthdaySelectorDOBPicker/dobpicker.js"></script>
     <script src="Assets/dist/owl.carousel.min.js"></script>
     <script src="main.js"></script>
 </body>

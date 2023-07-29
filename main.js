@@ -1,4 +1,27 @@
 $(document).ready(function () {
+
+    moment.locale('fa')
+    var days = moment().daysInMonth()
+    for (let i = 1; i <= days; i++) {
+        const optionDay = '<option value="' + i + '">' + i + '</option>'
+        $('#day').append(optionDay).val();
+    }
+
+    var month = moment()._locale._jMonths
+    for (let i = 0; i < month.length; i++) {
+        const optionMonth = '<option value="' + month[i] + '">' + month[i] + '</option>'
+        $('#month').append(optionMonth).val();
+    }
+
+    const year = moment().year()
+    for (let i = year; i >= 1340; i--) {
+        console.log(year)
+        const optionYear = '<option value="' + i + '">' + i + '</option>'
+        $('#year').append(optionYear).val()
+    }
+
+
+
     $(".owl-carousel").owlCarousel({
         autoplay: false,
         items: 1,
@@ -20,4 +43,54 @@ $(document).ready(function () {
         }
 
     })
+
+
+    // $.dobPicker({
+    //     // Selectopr IDs
+    //     daySelector: '#day',
+    //     monthSelector: '#month',
+    //     yearSelector: '#year',
+    //     // Default option values
+    //     dayDefault: '',
+    //     monthDefault: '',
+    //     yearDefault: '',
+    //     // Minimum age
+    //     minimumAge: 0,
+    //     // Maximum age
+    //     maximumAge: 100
+    // });
+
+    // $("#birthdayPicker").birthdayPicker({
+    //     maxAge: 100,
+    //     minAge: 0,
+    //     dateFormat: "middleEndian",
+    //     monthFormat: "number",
+    //     placeholder: true,
+    //     defaultDate: false,
+    //     sizeClass: "span2"
+    // });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 })
