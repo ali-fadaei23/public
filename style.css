@@ -48,13 +48,11 @@
 /* ######################################## Default Style ########################################*/
 select {
   appearance: none;
-  background-image: url(Assets/images/expand-arrow.png);
+  background-image: url(Assets/images/expand.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-position: 10px 50%;
+  background-position: 1px 50%;
 }
-
-
 
 /* select::before {
   content: ;
@@ -204,13 +202,54 @@ label {
   direction: ltr;
 }
 
+option {
+  background-color: transparent;
+  color: #4c4c4c;
+  cursor: pointer;
+  font-family: KalamehWeb;
+  font-size: 17px;
+}
+
+/* option:checked {
+  background-color: #747474;
+  color: #ffffff;
+  font-size: 30px;
+} */
+
+/* option:enabled {
+  background-color: #747474;
+  color: #ffffff;
+  font-size: 30px;
+} */
+
+option:hover {
+  background-color: #747474;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+option:hover,
+option:checked {
+  background-color: #4c4c4c;
+  color: #ffffff;
+}
+
+option:focus-within {
+  background-color: #4c4c4c;
+  color: #ffffff;
+}
+
 .choice {
+  font-family: KalamehWeb;
+  font-size: 17px;
   width: 285px;
   height: 45px;
   border: 1px solid #d6d6d6;
   border-radius: 10px;
   background-color: transparent;
   direction: rtl;
+  padding: 10px;
+  color: #747474;
 }
 
 body {

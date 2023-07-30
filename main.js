@@ -20,8 +20,6 @@ $(document).ready(function () {
         $('#year').append(optionYear).val()
     }
 
-
-
     $(".owl-carousel").owlCarousel({
         autoplay: false,
         items: 1,
@@ -43,54 +41,5 @@ $(document).ready(function () {
         }
 
     })
-
-
-    // $.dobPicker({
-    //     // Selectopr IDs
-    //     daySelector: '#day',
-    //     monthSelector: '#month',
-    //     yearSelector: '#year',
-    //     // Default option values
-    //     dayDefault: '',
-    //     monthDefault: '',
-    //     yearDefault: '',
-    //     // Minimum age
-    //     minimumAge: 0,
-    //     // Maximum age
-    //     maximumAge: 100
-    // });
-
-    // $("#birthdayPicker").birthdayPicker({
-    //     maxAge: 100,
-    //     minAge: 0,
-    //     dateFormat: "middleEndian",
-    //     monthFormat: "number",
-    //     placeholder: true,
-    //     defaultDate: false,
-    //     sizeClass: "span2"
-    // });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 })
