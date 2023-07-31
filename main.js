@@ -42,4 +42,26 @@ $(document).ready(function () {
 
     })
 
+
+    // $(".marital").on('click', function () {
+    //     if($(this).is('.married')) {
+    //         $('.single').attr('checked', "true");
+    //         console.log('single')
+    //     } else if($(this).is('.single')) {
+    //         $('.single').attr('checked', "true");
+    //         console.log('married')
+    //     }
+
+    // })
+
+    // $("input:checkbox").click(function(){
+    //     var group = "input:checkbox[name='"+$(this).attr("name")+"']";
+    //     $(group).attr("checked",false);
+
+    //     $(this).attr("checked",true);
+    // });
+
+
+
+
 })

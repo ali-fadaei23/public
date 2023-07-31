@@ -259,17 +259,36 @@ option:focus-within {
   cursor: pointer;
 }
 
-.marital:hover {
+/* .marital:hover {
+  outline: 1px solid #4c4c4c;
+  border: 3px solid #fff;
+  background: #1d71b9;
+} */
+
+.marital:checked {
   outline: 1px solid #4c4c4c;
   border: 3px solid #fff;
   background: #1d71b9;
 }
 
+.married {
+  margin-right: 18px;
+}
 
+.single {
+  margin-right: 30px;
+}
 
 .label-checkbox {
   font-family: IRANSansXFaNum L;
   font-size: 14px;
+  margin: 0;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .card-marital-status {
@@ -299,6 +318,98 @@ option:focus-within {
   width: 100%;
   padding: 25px 5px;
   border-radius: 10px;
+}
+
+.card-resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: end;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-resume {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.span-resume {
+  margin-right: 21px;
+  font-family: IRANSansXFaNum L;
+  color: #969595;
+  font-size: smaller;
+  margin-bottom: 5px;
+}
+
+.text-resume {
+  font-family: IRANSansXFaNum L;
+  margin-bottom: 10px;
+}
+
+.input-resume {
+  width: 95%;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid #d6d6d6;
+  height: 100px;
+  resize: none;
+  margin: 0 auto;
+}
+
+.resume {
+  width: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 25px 5px;
+  border-radius: 10px;
+}
+
+.textarea-resume {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: end;
+}
+
+.row-resume {
+  width: 100%;
+}
+
+#upfile {
+  font-family: IRANSansXFaNum L;
+  border: 0;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+  color: #969595;
+}
+
+input[type="file"]::file-selector-button {
+  background-color: #1d71b9;
+  border-radius: 10px;
+  border: 0;
+  padding: 12px 14px;
+  color: #ffffff;
+  font-family: IRANSansXFaNum M;
+}
+
+.span-upfile {
+  font-family: IRANSansXFaNum L;
+  color: #969595;
+  font-size: smaller;
+}
+
+.upload-file {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-right: 21px;
+  margin-top: 25px;
 }
 
 body {
