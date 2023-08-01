@@ -1,0 +1,22 @@
+### SonarQube ###
+.scannerwork/
+
+### JetBrains IDE ###
+.idea/
+
+### Sass ###
+.sass-cache/
+*.css.map
+
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+npm-debug.log
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db

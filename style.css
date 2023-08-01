@@ -47,6 +47,14 @@
 }
 /* ######################################## Default Style ########################################*/
 
+#captcha {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+
 body {
   font-family: IRANSansXFaNum;
   margin: 0;
@@ -1330,6 +1338,440 @@ button {
     font-size: 0.93rem;
     margin: 0;
   }
+  /*######################################## FORM ########################################*/
+  select {
+    appearance: none;
+    background-image: url(Assets/images/expand.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 1px 50%;
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    height: 45px;
+    font-family: IRANSansXFaNum L;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+
+  label {
+    font-family: "IRANSansXFaNum L";
+    font-size: 0.8rem;
+    color: #969595;
+    margin-bottom: 5px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    width: 89%;
+  }
+
+  .input-info {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px 15px;
+    direction: ltr;
+    width: 100%;
+  }
+
+  .header-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #ffffff;
+  }
+
+  .text-header-form {
+    font-size: 2rem;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .line-form {
+    font-size: 25px;
+    position: relative;
+    bottom: 0;
+    top: -20px;
+  }
+
+  .card-form-main {
+    background-color: #ffffff;
+    margin: 0 5%;
+    border-radius: 10px;
+  }
+
+  .card-personal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header-personal-info {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .text-personal-info {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .personal-info {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .card-birth-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header-birth-day {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .text-birth-day {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .birth-day {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .birth-day-choice {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px 15px;
+    direction: ltr;
+    width: 100%;
+  }
+
+  option {
+    background-color: transparent;
+    color: #4c4c4c;
+    cursor: pointer;
+    font-family: KalamehWeb;
+    font-size: 17px;
+  }
+
+  option:hover {
+    background-color: #747474;
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  option:hover,
+  option:checked {
+    background-color: #4c4c4c;
+    color: #ffffff;
+  }
+
+  option:focus-within {
+    background-color: #4c4c4c;
+    color: #ffffff;
+  }
+
+  .choice {
+    font-family: KalamehWeb;
+    font-size: 17px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    background-color: transparent;
+    direction: rtl;
+    padding: 10px;
+    color: #747474;
+  }
+
+  .row-marital-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    direction: rtl;
+  }
+
+  .marital {
+    font-family: KalamehWeb;
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #000;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .marital:checked {
+    outline: 1px solid #4c4c4c;
+    border: 3px solid #fff;
+    background: #1d71b9;
+  }
+
+  .married {
+    margin-right: 18px;
+  }
+
+  .single {
+    margin-right: 30px;
+  }
+
+  .label-checkbox {
+    font-family: IRANSansXFaNum L;
+    font-size: 17px;
+    margin: 0;
+  }
+
+  .checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card-marital-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header-marital-status {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .text-marital-status {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .marital-status {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .card-resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header-resume {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .span-resume {
+    font-family: IRANSansXFaNum L;
+    color: #969595;
+    font-size: smaller;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-resume {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .input-resume {
+    width: 95%;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    height: 100px;
+    resize: none;
+    margin: 0 auto;
+  }
+
+  .resume {
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .textarea-resume {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: end;
+  }
+
+  .row-resume {
+    width: 100%;
+  }
+
+  .row-upload {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    direction: rtl;
+    width: 100%;
+  }
+
+  #upfile {
+    font-family: IRANSansXFaNum L;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+    color: #969595;
+  }
+
+  input[type="file"]::file-selector-button {
+    background-color: #1d71b9;
+    border-radius: 10px;
+    border: 0;
+    padding: 12px 14px;
+    color: #ffffff;
+    font-family: IRANSansXFaNum M;
+    width: 100%;
+  }
+
+  .span-upfile {
+    font-family: IRANSansXFaNum L;
+    color: #969595;
+    font-size: smaller;
+    margin-top: 20px;
+  }
+
+  .upload {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .upload-file {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-left: auto;
+  }
+
+  .card-phone-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header-phone-detail {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .text-phone-detail {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .phone-detail {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .row-phone-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    width: 90%;
+  }
+
+  .input-phone-number {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px 15px;
+    direction: ltr;
+    width: 100%;
+  }
+
+  .label-phone-number {
+    font-family: IRANSansXFaNum L;
+    font-size: 0.8rem;
+    color: #969595;
+    margin-bottom: 5px;
+    margin-right: 21px;
+  }
+
+  .textarea-phone-number {
+    width: 95%;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    height: 100px;
+    resize: none;
+    margin: 0 auto;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -1970,6 +2412,440 @@ button {
     bottom: 0;
     font-size: 0.93rem;
     margin: 0;
+  }
+  /*######################################## FORM ########################################*/
+  select {
+    appearance: none;
+    background-image: url(Assets/images/expand.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 1px 50%;
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    height: 45px;
+    font-family: IRANSansXFaNum L;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+
+  label {
+    font-family: "IRANSansXFaNum L";
+    font-size: 0.8rem;
+    color: #969595;
+    margin-bottom: 5px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    width: 100%;
+  }
+
+  .input-info {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px 15px;
+    direction: ltr;
+    width: 100%;
+  }
+
+  .header-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #ffffff;
+  }
+
+  .text-header-form {
+    font-size: 2rem;
+    position: relative;
+    top: 0;
+    margin: 0;
+    font-family: KalamehWeb;
+  }
+
+  .line-form {
+    font-size: 25px;
+    position: relative;
+    bottom: 0;
+    top: -20px;
+  }
+
+  .card-form-main {
+    background-color: #ffffff;
+    margin: 0 5%;
+    border-radius: 10px;
+  }
+
+  .card-personal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header-personal-info {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .text-personal-info {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .personal-info {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .card-birth-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header-birth-day {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .text-birth-day {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .birth-day {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .birth-day-choice {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px 15px;
+    direction: ltr;
+    width: 100%;
+  }
+
+  option {
+    background-color: transparent;
+    color: #4c4c4c;
+    cursor: pointer;
+    font-family: KalamehWeb;
+    font-size: 17px;
+  }
+
+  option:hover {
+    background-color: #747474;
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  option:hover,
+  option:checked {
+    background-color: #4c4c4c;
+    color: #ffffff;
+  }
+
+  option:focus-within {
+    background-color: #4c4c4c;
+    color: #ffffff;
+  }
+
+  .choice {
+    font-family: KalamehWeb;
+    font-size: 17px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    background-color: transparent;
+    direction: rtl;
+    padding: 10px;
+    color: #747474;
+  }
+
+  .row-marital-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    direction: rtl;
+  }
+
+  .marital {
+    font-family: KalamehWeb;
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #000;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .marital:checked {
+    outline: 1px solid #4c4c4c;
+    border: 3px solid #fff;
+    background: #1d71b9;
+  }
+
+  .married {
+    margin-right: 18px;
+  }
+
+  .single {
+    margin-right: 30px;
+  }
+
+  .label-checkbox {
+    font-family: IRANSansXFaNum L;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card-marital-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header-marital-status {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .text-marital-status {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .marital-status {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .card-resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header-resume {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .span-resume {
+    margin-right: 21px;
+    font-family: IRANSansXFaNum L;
+    color: #969595;
+    font-size: smaller;
+    margin-bottom: 5px;
+    margin-left: 0;
+  }
+
+  .text-resume {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .input-resume {
+    width: 95%;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    height: 100px;
+    resize: none;
+    margin: 0 auto;
+  }
+
+  .resume {
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .textarea-resume {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: end;
+  }
+
+  .row-resume {
+    width: 100%;
+  }
+
+  .row-upload {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    direction: rtl;
+    width: 100%;
+  }
+
+  #upfile {
+    font-family: IRANSansXFaNum L;
+    border: 0;
+    border-radius: 0;
+    width: auto;
+    height: auto;
+    color: #969595;
+  }
+
+  input[type="file"]::file-selector-button {
+    background-color: #1d71b9;
+    border-radius: 10px;
+    border: 0;
+    padding: 12px 14px;
+    color: #ffffff;
+    font-family: IRANSansXFaNum M;
+    width: auto;
+  }
+
+  .span-upfile {
+    font-family: IRANSansXFaNum L;
+    color: #969595;
+    font-size: smaller;
+    margin-top: 0;
+  }
+
+  .upload {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .upload-file {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-right: 21px;
+    margin-top: 25px;
+    margin-left: 0;
+  }
+
+  .card-phone-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header-phone-detail {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .text-phone-detail {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .phone-detail {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .row-phone-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    width: 100%;
+  }
+
+  .input-phone-number {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px 15px;
+    direction: ltr;
+    width: 100%;
+  }
+
+  .label-phone-number {
+    font-family: IRANSansXFaNum L;
+    font-size: 0.8rem;
+    color: #969595;
+    margin-bottom: 5px;
+    margin-right: 21px;
+  }
+
+  .textarea-phone-number {
+    width: 95%;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    height: 100px;
+    resize: none;
+    margin: 0 auto;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -2887,6 +3763,7 @@ button {
     color: #969595;
     font-size: smaller;
     margin-bottom: 5px;
+    margin-left: 0;
   }
 
   .text-resume {
@@ -2952,20 +3829,96 @@ button {
     padding: 12px 14px;
     color: #ffffff;
     font-family: IRANSansXFaNum M;
+    width: auto;
   }
 
   .span-upfile {
     font-family: IRANSansXFaNum L;
     color: #969595;
     font-size: smaller;
+    margin-top: 0;
+  }
+
+  .upload {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
 
   .upload-file {
     display: flex;
     align-items: center;
+    flex-direction: row;
     width: 100%;
     margin-right: 21px;
     margin-top: 25px;
+    margin-left: 0;
+  }
+
+  .card-phone-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header-phone-detail {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .text-phone-detail {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .phone-detail {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .row-phone-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    width: 100%;
+  }
+
+  .input-phone-number {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px 15px;
+    direction: ltr;
+    width: 100%;
+  }
+
+  .label-phone-number {
+    font-family: IRANSansXFaNum L;
+    font-size: 0.8rem;
+    color: #969595;
+    margin-bottom: 5px;
+    margin-right: 21px;
+  }
+
+  .textarea-phone-number {
+    width: 95%;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    height: 100px;
+    resize: none;
+    margin: 0 auto;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -3879,6 +4832,7 @@ button {
     color: #969595;
     font-size: smaller;
     margin-bottom: 5px;
+    margin-left: 0;
   }
 
   .text-resume {
@@ -3944,19 +4898,95 @@ button {
     padding: 12px 14px;
     color: #ffffff;
     font-family: IRANSansXFaNum M;
+    width: auto;
   }
 
   .span-upfile {
     font-family: IRANSansXFaNum L;
     color: #969595;
     font-size: smaller;
+    margin-top: 0;
+  }
+
+  .upload {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
 
   .upload-file {
     display: flex;
     align-items: center;
+    flex-direction: row;
     width: 100%;
     margin-right: 21px;
     margin-top: 25px;
+    margin-left: 0;
+  }
+
+  .card-phone-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: end;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header-phone-detail {
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .text-phone-detail {
+    font-family: IRANSansXFaNum L;
+    margin-bottom: 10px;
+  }
+
+  .phone-detail {
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 25px 5px;
+    border-radius: 10px;
+  }
+
+  .row-phone-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    width: 100%;
+  }
+
+  .input-phone-number {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 10px 15px;
+    direction: ltr;
+    width: 100%;
+  }
+
+  .label-phone-number {
+    font-family: IRANSansXFaNum L;
+    font-size: 0.8rem;
+    color: #969595;
+    margin-bottom: 5px;
+    margin-right: 21px;
+  }
+
+  .textarea-phone-number {
+    width: 95%;
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    height: 100px;
+    resize: none;
+    margin: 0 auto;
   }
 }

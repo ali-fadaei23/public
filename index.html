@@ -288,7 +288,7 @@
             </div>
         </section>
 
-
+        <!--############################## FORM ##############################-->
         <section style="background-color: #1D71B9">
             <div class="form-container">
                 <div class="header-form">
@@ -296,7 +296,7 @@
                     <br /><span class="line-form">|</span>
                 </div>
                 <div class="card-form-main">
-                    <form>
+                    <form id="signup" method="post" action="#">
                         <div class="card-personal-info">
                             <div class="header-personal-info">
                                 <h4 class="text-personal-info">مشخصات فردی</h4>
@@ -322,10 +322,6 @@
                                         <input type="text" id="field-of-study" name="fieldofstudy">
                                     </div>
                                 </div>
-
-
-
-                                <!-- ################################ -->
                             </div>
                         </div>
                         <div class="card-birth-day">
@@ -337,9 +333,7 @@
 
                                     <div class="birth-day-choice">
                                         <label>روز</label>
-                                        <select id="day" class="choice choice-day">
-
-                                        </select>
+                                        <select id="day" class="choice choice-day"></select>
                                     </div>
                                     <div class="birth-day-choice">
                                         <label>ماه</label>
@@ -350,14 +344,8 @@
                                         <select id="year" class="choice choice-year"></select>
                                     </div>
                                 </div>
-
-
-
-
-                                <!-- ################################ -->
                             </div>
                         </div>
-
 
                         <div class="card-marital-status">
                             <div class="header-marital-status">
@@ -373,15 +361,9 @@
                                             value="single">
                                         <label for="married" class="label-checkbox"> مجرد</label><br>
                                     </div>
-
                                 </div>
 
-
-
-
-                                <!-- ################################ -->
                             </div>
-
                         </div>
 
                         <div class="card-resume">
@@ -392,15 +374,13 @@
                                 <div class="row row-resume">
                                     <div class="textarea-resume">
 
-                                        <span class="span-resume">متنی درباره ی ویژگی های شخصیتی و حرفه ای خود
-                                            بنویسید</span>
-
+                                        <label class="span-resume">متنی درباره ی ویژگی های شخصیتی و حرفه ای خود
+                                            بنویسید
+                                        </label>
                                         <textarea class="input-resume" required></textarea>
-
                                     </div>
                                 </div>
                                 <div class="row row-upload">
-
                                     <div class="upload">
                                         <div class="upload-file">
                                             <input type="file" id="upfile" name="myfile">
@@ -408,37 +388,97 @@
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-                                <!-- ################################ -->
                             </div>
 
+
+                            <div class="card-phone-detail">
+                                <div class="header-phone-detail">
+                                    <h4 class="text-phone-detail">اطلاعات تماس</h4>
+                                </div>
+                                <div class="phone-detail">
+                                    <div class="row row-phone-detail">
+                                        <div class="input-phone-number">
+                                            <label>تلفن ثابت</label>
+                                            <input type="text" id="first-name" name="firstname">
+                                        </div>
+                                        <div class="input-phone-number">
+                                            <label>تلفن همراه</label>
+                                            <input type="text" id="last-name" name="lastname">
+                                        </div>
+                                        <div class="input-phone-number">
+                                            <label>ایمیل</label>
+                                            <input type="text" id="last-name" name="lastname">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="input-phone-number">
+                                            <label class="label-phone-number">توضیحات</label>
+                                            <textarea class="textarea-phone-number" required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
                         </div>
+
+
+
+
+
+
+
+
+
+
+                        <div class="captcha-chat">
+                            <div class="captcha-container media">
+                                <div id="captcha">
+
+
+                                    <div>
+                                        <button class="refresh btn-common">
+                                            <img src="Assets/images/icons8-reset-24.png" alt="refresh icon">
+                                        </button>
+                                    </div>
+
+                                </div>
+                                <div class="controls">
+                                    <input class="user-text btn-common" placeholder="Type here" type="text">
+
+                                    <button class="validate btn-common"></button>
+                                </div>
+                                <p class="wrong info">Wrong!, please try again.</p>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
                     </form>
                 </div>
             </div>
-
-
         </section>
-
-
-
     </div>
 
 
 
 
 
-
-    <!-- script -->
+    <!--################################## script ##################################-->
     <script src="Assets/dist/Jquery/jquery-1.11.3.min.js"></script>
+    <script src="Assets/dist/ClientSideCaptcha-master/js/client_captcha.js"></script>
     <script src="Assets/dist/moment.js"></script>
     <script src="https://unpkg.com/jalali-moment/dist/jalali-moment.browser.js"></script>
-    <script src="Assets/dist/birthdaySelectorDOBPicker/dobpicker.js"></script>
     <script src="Assets/dist/owl.carousel.min.js"></script>
     <script src="main.js"></script>
 </body>
