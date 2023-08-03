@@ -63,7 +63,7 @@ $(document).ready(function () {
 
 
 
-    var captcha = new $.Captcha({ //initialize captcha  
+    var captcha = new $.Captcha({
         selector: "#captcha",
         text: null,
         randomText: true,
@@ -80,10 +80,76 @@ $(document).ready(function () {
             alert("CORRECT!!!");
         }
     });
-    captcha.generate(); //Generate or refresh captcha
-    captcha.validate(); //validate filled captcha
+    captcha.generate();
+    captcha.validate();
 
 
+    $('#myform').validate({
+        rules: {
+            firstname: {
+                required: true,
+                minlength: 2,
 
+            },
+            lastname: {
+                required: true,
+                minlength: 2,
+
+            }, education: {
+                required: true,
+                minlength: 2,
+
+            },
+            fieldofstudy: {
+                required: true,
+                minlength: 2,
+                
+            }, resume: {
+                required: true,
+                minlength: 20,
+            },
+            email: {
+                required: true,
+                email: true
+            },
+        },
+        errorClass: "invalid",
+        validClass: "success",
+        messages: {
+            email: {
+                email: "Your email address must be in the format of name@domain.com"
+            }
+        }
+    });
+
+    $('#myform').submit(function (event) {
+        var formData = {
+            firstname: $("#first-name").val(),
+            lastname: $("#last-name").val(),
+            education: $("#education").val(),
+            fieldofstudy: $("#field-of-study").val(),
+            day: $("#day").val(),
+            month: $("#month").val(),
+            year: $("#year").val(),
+            marital: $(`input[name="marital"]:checked`).val(),
+            resume: $(".input-resume").val(),
+            myfile: $("#upfile").val(),
+            fixnumber: $("#fix-number").val(),
+            phonenumber: $("#phone-number").val(),
+            email: $("#email").val(),
+        };
+        $.ajax({
+            type: "POST",
+            url: "https://postman-echo.com/post",
+            data: formData,
+            encode: true,
+        }).done(function (data) {
+            console.log(data);
+        });
+
+        event.preventDefault();
+
+
+    })
 
 })
