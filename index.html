@@ -287,16 +287,15 @@
                 </div>
             </div>
         </section>
-
         <!--############################## FORM ##############################-->
-        <section style="background-color: #1D71B9">
+        <section style="background-color: #1D71B9; padding-bottom: 30px;">
             <div class="form-container">
                 <div class="header-form">
                     <h3 class="text-header-form">ثبت درخواست همکاری</h3>
                     <br /><span class="line-form">|</span>
                 </div>
                 <div class="card-form-main">
-                    <form id="signup" method="post" action="#">
+                    <form id="myform" method="post" action="https://postman-echo.com/post">
                         <div class="card-personal-info">
                             <div class="header-personal-info">
                                 <h4 class="text-personal-info">مشخصات فردی</h4>
@@ -305,21 +304,25 @@
                                 <div class="row">
                                     <div class="input-info">
                                         <label>نام</label>
-                                        <input type="text" id="first-name" name="firstname">
+                                        <input type="text" id="first-name" name="firstname" required
+                                            data-msg-required="First Name is required.">
                                     </div>
                                     <div class="input-info">
                                         <label>نام خانوادگی</label>
-                                        <input type="text" id="last-name" name="lastname">
+                                        <input type="text" id="last-name" name="lastname" required
+                                            data-msg-required="Last Name is required.">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="input-info">
                                         <label>مقطع تحصیلی</label>
-                                        <input type="text" id="education" name="education">
+                                        <input type="text" id="education" name="education" required
+                                            data-msg-required="Education is required.">
                                     </div>
                                     <div class="input-info">
                                         <label>رشته تحصیلی</label>
-                                        <input type="text" id="field-of-study" name="fieldofstudy">
+                                        <input type="text" id="field-of-study" name="fieldofstudy" required
+                                            data-msg-required="Field Of Study is required.">
                                     </div>
                                 </div>
                             </div>
@@ -330,18 +333,20 @@
                             </div>
                             <div class="birth-day">
                                 <div class="row">
-
                                     <div class="birth-day-choice">
                                         <label>روز</label>
-                                        <select id="day" class="choice choice-day"></select>
+                                        <select id="day" class="choice choice-day" name="day" required
+                                            data-msg-required="Day is required."></select>
                                     </div>
                                     <div class="birth-day-choice">
                                         <label>ماه</label>
-                                        <select id="month" class="choice choice-month"></select>
+                                        <select id="month" class="choice choice-month" name="month" required
+                                            data-msg-required="Month is required."></select>
                                     </div>
                                     <div class="birth-day-choice">
                                         <label>سال</label>
-                                        <select id="year" class="choice choice-year"></select>
+                                        <select id="year" class="choice choice-year" name="year" required
+                                            data-msg-required="Year is required."></select>
                                     </div>
                                 </div>
                             </div>
@@ -355,10 +360,10 @@
                                 <div class="row row-marital-status">
                                     <div class="checkbox checkbox-married">
                                         <input type="radio" id="marital" class="married marital" name="marital"
-                                            value="married">
+                                            value="متأهل" required>
                                         <label for="married" class="label-checkbox"> متأهل</label><br>
                                         <input type="radio" id="single" class="single marital" name="marital"
-                                            value="single">
+                                            value="مجرد" required>
                                         <label for="married" class="label-checkbox"> مجرد</label><br>
                                     </div>
                                 </div>
@@ -377,19 +382,20 @@
                                         <label class="span-resume">متنی درباره ی ویژگی های شخصیتی و حرفه ای خود
                                             بنویسید
                                         </label>
-                                        <textarea class="input-resume" required></textarea>
+                                        <textarea class="input-resume" name="resume" required
+                                            data-msg-required="Resume is required."></textarea>
                                     </div>
                                 </div>
                                 <div class="row row-upload">
                                     <div class="upload">
                                         <div class="upload-file">
-                                            <input type="file" id="upfile" name="myfile">
+                                            <input type="file" id="upfile" name="myfile" required
+                                                data-msg-required="Upload File is required.">
                                             <span class="span-upfile">فایل سوابق خود را با فرمت PDF وارد کنید</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
 
                             <div class="card-phone-detail">
                                 <div class="header-phone-detail">
@@ -399,77 +405,49 @@
                                     <div class="row row-phone-detail">
                                         <div class="input-phone-number">
                                             <label>تلفن ثابت</label>
-                                            <input type="text" id="first-name" name="firstname">
+                                            <input type="text" id="fix-number" name="fixnumber" pattern="[0-9]{11}">
                                         </div>
                                         <div class="input-phone-number">
                                             <label>تلفن همراه</label>
-                                            <input type="text" id="last-name" name="lastname">
+                                            <input type="text" id="phone-number" name=phonenumber" pattern="[0-9]{11}"
+                                                required data-msg-required="Phone Number is required.">
                                         </div>
                                         <div class="input-phone-number">
                                             <label>ایمیل</label>
-                                            <input type="text" id="last-name" name="lastname">
+                                            <input type="text" id="email"
+                                                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" name="email" required
+                                                data-msg-required="Email Adress is required.">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="input-phone-number">
                                             <label class="label-phone-number">توضیحات</label>
-                                            <textarea class="textarea-phone-number" required></textarea>
+                                            <textarea name="description" class="textarea-phone-number" required
+                                                data-msg-required="Description is required."></textarea>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-
-
                         </div>
-
-
-
-
-
-
-
-
-
 
                         <div class="captcha-chat">
                             <div class="captcha-container media">
                                 <div id="captcha">
-
-
                                     <div>
                                         <button class="refresh btn-common">
                                             <img src="Assets/images/icons8-reset-24.png" alt="refresh icon">
                                         </button>
                                     </div>
-
                                 </div>
-                                <div class="controls">
+                                <div class="controls" style="margin-bottom: 20px;">
                                     <div class="input-user">
-
                                         <label>کد امنیتی را وارد کنید</label>
                                         <input class="user-text btn-common" type="text">
                                     </div>
-                                    <div class="submit-btn">
-
-                                        <button class="validate btn-common">ثبت</button>
-                                    </div>
+                                    <button type="submit" class="validate btn-common">ثبت</button>
                                 </div>
-                                <p class="wrong info">Wrong!, please try again.</p>
                             </div>
                         </div>
-
-
-
-
-
-
-
-
-
-
-
-
                     </form>
                 </div>
             </div>
@@ -482,7 +460,8 @@
 
     <!--################################## script ##################################-->
     <script src="Assets/dist/Jquery/jquery-1.11.3.min.js"></script>
-    <script src="Assets/dist/ClientSideCaptcha-master/js/client_captcha.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+    <script src=" Assets/dist/ClientSideCaptcha-master/js/client_captcha.js"></script>
     <script src="Assets/dist/moment.js"></script>
     <script src="https://unpkg.com/jalali-moment/dist/jalali-moment.browser.js"></script>
     <script src="Assets/dist/owl.carousel.min.js"></script>
